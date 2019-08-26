@@ -7,7 +7,7 @@ b = gets.to_i
 puts "Zadej konstantu v absolutniho clenu."
 c = gets.to_i
 
-x1 = (-1*(b)+(((b*b)-(4*a*c))**(2**-1)))/2
+x1 = (-1*(b) + Math.sqrt((b*b)-(4*a*c)))/2
 x2 = (-1*(b)-(((b*b)-(4*a*c))**(2**-1)))/2
 
 p x1
